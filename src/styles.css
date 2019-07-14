@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  position: relative;
+}
+
+.App__stack {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.App__frame {
+  width: 412px;
+  height: 891px;
+  position: relative;
+}
+
+.App__frame__kaedeText {
+  position: absolute;
+  top: 115px;
+  left: 80px;
+  color: #fff;
+}
+
+.App__frame__mitoText {
+  position: absolute;
+  top: 730px;
+  left: 210px;
+  color: #fff;
+}

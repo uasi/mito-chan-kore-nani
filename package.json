@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "mito-chan-kore-nani",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.0.2",
+    "@tensorflow/tfjs": "^1.2.2",
+    "lodash.debounce": "^4.0.8",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel": "^1.12.3"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && cp -R public/assets dist && parcel build src/index.html"
+  }
+}
