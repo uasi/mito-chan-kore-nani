@@ -18,7 +18,7 @@ function initApp(videoElement, setPredictions) {
 function startVideoStream(videoElement) {
   const streamPromise = navigator.mediaDevices.getUserMedia({
     audio: false,
-    video: { facingMode: "user", width: 412, height: 891 }
+    video: { facingMode: "environment", width: 412, height: 891 }
   });
   return streamPromise.then(stream => {
     videoElement.srcObject = stream;
